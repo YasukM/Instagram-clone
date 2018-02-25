@@ -28,5 +28,6 @@ class PostCommentData: NSObject {
         
         let time = valueDictionary["time"] as? String
         self.date = NSDate(timeIntervalSinceReferenceDate: TimeInterval(time!)!)
+        
     }
 }
